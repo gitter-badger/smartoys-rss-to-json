@@ -2,7 +2,7 @@
   "name": "smartoys-rss-to-json",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,7 +21,9 @@
   "homepage": "https://github.com/igorissen/smartoys-rss-to-json",
   "dependencies": {
     "async": "^0.9.0",
+    "clone": "^0.2.0",
     "debug": "^2.1.1",
+    "lodash": "^2.4.1",
     "moment": "^2.9.0",
     "request": "^2.51.0",
     "xml2js": "^0.4.4"
